@@ -1,0 +1,26 @@
+import java.lang.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // YOUR CODE GOES HERE
+        // Please take input and print output to standard input/output (stdin/stdout)
+        // DO NOT USE ARGUMENTS FOR INPUTS
+        // E.g. 'Scanner' for input & 'System.out' for output
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t>0){
+		int x = sc. nextInt();
+        int rev = 0;
+		for(; x>0 ; x=x/10){
+				int y=x%10;
+			rev = rev*10;
+			rev =rev+y;
+			
+		}
+		System.out.println(rev);
+        t--;
+        }
+        
+    }
+}
